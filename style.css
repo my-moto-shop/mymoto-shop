@@ -75,3 +75,45 @@ button {
 button:hover {
     background-color: #ffcc00;
 }
+#products {
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+
+button {
+    background-color: #ffe600;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
